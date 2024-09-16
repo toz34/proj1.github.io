@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+
+body {
+    font-family: Poppins, serif;
+    background: linear-gradient(90deg, #450d77 0%, #241f31 100%);
+}
+
+p {
+    color: aquamarine;
+}
+
+.nav-link {
+    color: rgb(243, 204, 156);
+}
+
+ .navbar-nav .nav-link.active {
+    color: rgb(94, 170, 236);
+}
+
+.navbar-brand img {
+    width: 65px;
+}
+
+.navbar-toggler {
+    background-color: rgb(156, 106, 6);
+}
+
+.side-pan, .btn-outline-primary {
+    color: rgb(255, 255, 255);
+    background: linear-gradient(270deg, #450d77 0%, #241f31 100%);
+}
+
+.card {
+    background: linear-gradient(270deg, #450d77 0%, #241f31 100%);
+    color: white;
+}
+
+.card a {
+    text-decoration: none;
+    color: white;
+}
+
+.slide-text, .foot-text {
+    color: white;
+    margin: auto auto;
+}
+
+footer {
+    background: linear-gradient(270deg, #450d77 0%, #241f31 100%);
+}
+
+.foot-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tel-anim {
+    animation: myAnim 2s ease 0s 200 normal forwards;
+}
+
+@keyframes myAnim {
+	0% {
+		animation-timing-function: ease-out;
+		transform: scale(1);
+		transform-origin: center center;
+	}
+
+	10% {
+		animation-timing-function: ease-in;
+		transform: scale(0.91);
+	}
+
+	17% {
+		animation-timing-function: ease-out;
+		transform: scale(0.98);
+	}
+
+	33% {
+		animation-timing-function: ease-in;
+		transform: scale(0.87);
+	}
+
+	45% {
+		animation-timing-function: ease-out;
+		transform: scale(1);
+	}
+}
+
+@media (max-width: 755) {
+    .carousel-indicators {
+        display: none;
+    }
+}

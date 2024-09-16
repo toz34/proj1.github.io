@@ -1,0 +1,34 @@
+.back-vid {
+    width: 100%;
+    height: 70vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.back-vid video {
+    width: 100%;
+    height: 70vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    z-index: 1;
+}
+
+.shadow {
+    width: 100%;
+    height: 70vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    background-color: rgba(0, 0, 0, 0.26);
+    z-index: 2;
+}
+
+.vid-txt {
+    color:aquamarine;
+    z-index: 2;
+}
